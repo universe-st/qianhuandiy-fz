@@ -1,0 +1,448 @@
+.qh-background {
+    z-index: 22;
+    position: absolute;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+.qh-window {
+    position: absolute;
+    height: 1080px;
+    width: 1920px;
+    left: 50%;
+    top: 50%;
+    display: block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    background-position: center;
+    background-image: url('image/background1.jpg');
+}
+
+.qh-window>.qh-back {
+    z-index: 2;
+    position: absolute;
+    left: 5.677%;
+    top: 4.26%;
+    width: 10.78%;
+    height: 8.24%;
+    display: block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/back.png');
+}
+
+.qhlydiy-headbutton{
+    display: block;
+    position: absolute;
+    width:11.56%;
+    height: 8.24%;
+    top:4.35%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
+.qhlydiy-headbutton-checked>.qhlydiy-headbutton-flag{
+    display: block;
+    position: absolute;
+    right:4.5%;
+    top:0;
+    height: 70.79%;
+    width: 14.41%;
+    visibility:visible;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: transform 0s;
+    background-image: url('image/headButtonCheckFlag.png');
+}
+
+.qhlydiy-headbutton-flag{
+    display: block;
+    position: absolute;
+    right:4.5%;
+    top:0;
+    height: 70.79%;
+    width: 14.41%;
+    visibility:hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: transform 0s;
+    background-image: url('image/headButtonCheckFlag.png');
+}
+
+.qhlydiy-characterbutton{
+    display: block;
+    position: absolute;
+    left:15.625%;
+    background-image: url('image/characterButton.png');
+}
+
+.qhlydiy-skillbutton{
+    display: block;
+    position: absolute;
+    left:26.30%;
+    background-image: url('image/skillButton.png');
+}
+
+.qh-window>.qhlydiy-characterpanel{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.qhlydiy-introduce{
+    display: block;
+    position: absolute;
+    left: 6.25%;
+    top:14.81%;
+    width: calc(30.92% - 30px);
+    height: calc(40.09% - 30px);
+    background-size: 100% 100%;
+    text-shadow: none;
+    overflow: scroll;
+    color: black;
+    font-size: 14px;
+    font-family: 'qh_heiti';
+    padding: 15px 15px 15px 15px;
+    line-height: 25px;
+    background-repeat: no-repeat;
+    background-image: url('image/introduce_background.png');
+}
+
+.qhlydiy-group-and-hp{
+    display: block;
+    position: absolute;
+    left: 5.2%;
+    bottom: 5.65%;
+    width: 31.3%;
+    height: 16.11%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/group_and_hp.png');
+}
+
+.qhlydiy-charactername{
+    display: block;
+    position: absolute;
+    font-family: 'qh_huakangsongti';
+    font-size: 45px;
+    color: white;
+    width: auto;
+    text-align: left;
+    height: auto;
+    left:6.77%;
+    bottom: 24%;
+}
+
+.qh-window>.qhlydiy-skillpanel{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.qhlydiy-stars{
+    display: block;
+    position: absolute;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3.15%;
+    width:5.63%;
+    left: 6.72%;
+    bottom:40.46%;
+}
+
+.qhlydiy-title{
+    display: block;
+    position: absolute;
+    left: 6.72%;
+    bottom: 35.65%;
+    width: auto;
+    height: auto;
+    font-size: 32px;
+    font-family: 'qh_huakangsongti';
+}
+
+.qhlydiy-stars[starcount='1']{
+    background-image: url('image/star_1.png');
+}
+
+.qhlydiy-stars[starcount='2']{
+    background-image: url('image/star_2.png');
+}
+
+.qhlydiy-stars[starcount='3']{
+    background-image: url('image/star_3.png');
+}
+
+.qhlydiy-stars[starcount='4']{
+    background-image: url('image/star_4.png');
+}
+
+.qhlydiy-stars[starcount='5']{
+    background-image: url('image/star_5.png');
+}
+
+.qhlydiy-stars[starcount='6']{
+    background-image: url('image/star_6.png');
+}
+
+.qhlydiy-group{
+    display: block;
+    position: absolute;
+    left: 3.66%;
+    top:0px;
+    width: 26.12%;
+    height: 88.51%;
+}
+
+.qhlydiy-groupcenter{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: auto;
+    height: auto;
+    color: white;
+    font-family: 'qh_huakangsongti';
+    font-size: 55px;
+    transform: translate(-50%, -50%);
+}
+
+.qhlydiy-doublegroupleft{
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: block;
+    width: auto;
+    height: auto;
+    color: white;
+    font-family: 'qh_huakangsongti';
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+}
+
+.qhlydiy-doublegroupright{
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    display: block;
+    width: auto;
+    height: auto;
+    color: white;
+    font-family: 'qh_huakangsongti';
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.qhlydiy-bars{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 67.39%;
+    height: 88.51%;
+}
+
+
+.qhlydiy-hpbar{
+    display: block;
+    position: absolute;
+    left: 6.4%;
+    top:50%;
+    width: calc(var(--unit-width)*var(--unit-count));
+    height: 39.47%;
+    transform: translate(0%, -50%);
+    --unit-width:14.78%; /*单位宽度*/
+    --unit-count:1; /*代码内修改，此处默认为1*/
+}
+
+.qhlydiy-bartext{
+    display: block;
+    position: absolute;
+    color: white;
+    font-family: 'qh_huakangsongti';
+    font-size: 35px;
+}
+
+.qhlydiy-hp-item{
+    display: block;
+    position: absolute;
+    background-position: center;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-image: url('image/hp.png');
+}
+
+.qhlydiy-hp-empty-item{
+    display: block;
+    position: absolute;
+    background-position: center;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-image: url('image/hp-empty.png');
+}
+
+.qhlydiy-shield-item{
+    display: block;
+    position: absolute;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/shield.png');
+}
+
+.qhlydiy-mp-item{
+    display: block;
+    position: absolute;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/mp.png');
+}
+
+.qhlydiy-mainavatar{
+    display: block;
+    position: absolute;
+    left: 37.5%;
+    top:4.17%;
+    width: 30.73%;
+    height: 91.02%;
+}
+
+.qhlydiy-mainavatar-frameback{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/character_frame.png');
+}
+
+.qhlydiy-lutou>.qhlydiy-mainavatar-frameback{
+    background-image: url('image/character_frame_lutou.png');
+}
+
+.qhlydiy-mainavatar-picture{
+    display: block;
+    position: absolute;
+    left: 3.56%;
+    top:2.14%;
+    width:92.37%;
+    height: 79.76%;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.qhlydiy-mainavatar-framefront{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/character_frame.png');
+}
+
+.qhlydiy-lutou>.qhlydiy-mainavatar-framefront{
+    background-image: url('image/character_frame_lutou_front.png');
+}
+
+.qhlydiy-lutou>.qhlydiy-mainavatar-picture{
+    display: block;
+    position: absolute;
+    left: 3.56%;
+    top: 10.00%;
+    width:92.37%;
+    height: 88%;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.qhlydiy-skinchange-buttons-line{
+    display: block;
+    position: absolute;
+    width: 19.63%;/*377*/
+    height: 3.89%;/*42*/
+    bottom: 10.37%;
+    z-index: 10;
+    left: 52.5%;
+    transform: translate(-50%, 0%);
+}
+
+.qhlydiy-skinchange-button-center{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35.01%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/between_previous_next.png');
+}
+
+.qhlydiy-skinchange-button-left{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 19.89%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/previous.png');
+}
+
+.qhlydiy-skinchange-button-right{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    width: 19.89%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('image/next.png');
+}
