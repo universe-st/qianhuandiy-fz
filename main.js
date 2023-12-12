@@ -73,6 +73,7 @@ window.qhly_import(function(lib, game, ui, get, ai, _status){
                 if(this.characterName && this.skinModels){
                     game.qhly_setCurrentSkin(this.characterName,this.skinModels[index].skinId,()=>{
                         this.avatar.setCharacter(this.characterName,true);
+                        this.refreshTitle();
                     },true);
                 }
             });
